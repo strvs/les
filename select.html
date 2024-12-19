@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Жилой комплекс &laquo;Лес&raquo; в Пензе</title>
+
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="js/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="js/nouislider/nouislider.css">
+
+        <meta name="viewport" content="width=device-width">
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+
+            <!-- wrapper inner -->
+            <div class="wrapper-inner">
+
+                <header>
+                    <div class="container">
+                        <div class="header-left">
+                            <a href="#" class="header-menu-link"><svg><use xlink:href="images/sprite.svg#burger-link"></use></svg><svg><use xlink:href="images/sprite.svg#burger-close"></use></svg></a>
+                            <a href="select.html" class="header-select-link btn">Выбрать квартиру</a>
+                            <a href="select.html" class="header-select-link-mobile">Квартиры</a>
+                            <a href="main.html#progress" class="header-progress-link">Ход строительства</a>
+                        </div>
+
+                        <div class="header-right">
+                            <a href="main.html#rules" class="header-mortgage">Ипотека от 6%</a>
+                            <a href="tel:+79875554433" class="header-phone">+7 987 555 44 33</a>
+                            <a href="windows/callback.html" class="header-callback-link btn border window-link">Заказать звонок</a>
+                        </div>
+
+                        <div class="logo"><a href="main.html"><img src="images/logo.svg" alt=""><span>WELLNESS-КВАРТАЛ В АХУНАХ</span></a></div>
+                    </div>
+                </header>
+
+                <div class="menu">
+                    <div class="menu-phone"><a href="tel:+78412221122">+7<strong>(8412)</strong>22<span>-</span>11<span>-</span>22</a></div>
+                    <div class="menu-container">
+                        <div class="menu-main">
+                            <ul>
+                                <li><a href="main.html#ambience">WELLNESS-атмосфера</a></li>
+                                <li><a href="main.html#location">WELLNESS-локация</a></li>
+                                <li><a href="main.html#architecture">WELLNESS-архитектура</a></li>
+                                <li><a href="main.html#nature">Природа внутри</a></li>
+                                <li><a href="main.html#forest">Лес прямо за окном</a></li>
+                                <li><a href="main.html#parking">Паркинг / кладовые / коммерция</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-add">
+                            <ul>
+                                <li class="no-mobile"><a href="main.html#gallery">Галерея</a></li>
+                                <li><a href="main.html#progress">Ход строительства</a></li>
+                                <li><a href="main.html#developer">Застройщик</a></li>
+                                <li><a href="main.html#rules">Условия покупки</a></li>
+                                <li><a href="main.html#contacts">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-btn"><a href="windows/callback.html" class="btn window-link">117 квартир в продаже</a></div>
+                </div>
+
+                <!-- container -->
+                <div class="container">
+
+                    <div class="breadcrumbs"><a href="#">главная страница</a><span></span>выбор квартиры</div>
+
+                    <!-- select params -->
+                    <div class="select-params">
+
+                        <!-- select filter -->
+                        <div class="select-filter">
+                            <div class="select-filter-text">Все квартиры представлены в&nbsp;евроформате (кухня-гостиная)</div>
+
+                            <div class="select-filter-container">
+                                <form data-action="ajax/flats.json" method="post">
+                                    <div class="select-filter-group open">
+                                        <div class="select-filter-group-title"><span>Количество комнат</span><strong><svg><use xlink:href="images/sprite.svg#faq-plus"></use></svg><svg><use xlink:href="images/sprite.svg#faq-minus"></use></svg></strong></div>
+                                        <div class="select-filter-group-content">
+                                            <div class="select-filter-rooms">
+                                                <label><input type="checkbox" name="rooms[]" value="1"><span>1</span></label>
+                                                <label><input type="checkbox" name="rooms[]" value="2"><span>2</span></label>
+                                                <label><input type="checkbox" name="rooms[]" value="3"><span>3</span></label>
+                                                <label><input type="checkbox" name="rooms[]" value="4"><span>4+</span></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="select-filter-group open">
+                                        <div class="select-filter-group-title"><span>Площадь, м<sup>2</sup></span><strong><svg><use xlink:href="images/sprite.svg#faq-plus"></use></svg><svg><use xlink:href="images/sprite.svg#faq-minus"></use></svg></strong></div>
+                                        <div class="select-filter-group-content">
+                                            <div class="select-filter-slider-wrapper">
+                                                <div class="select-filter-slider">
+                                                    <input type="hidden" name="sizeFrom" value="44" class="select-filter-slider-from select-filter-size-from">
+                                                    <input type="hidden" name="sizeTo" value="59" class="select-filter-slider-to select-filter-size-to">
+                                                    <div class="select-filter-slider-text-from"><em>от</em><span>44</span></div>
+                                                    <div class="select-filter-slider-text-to"><em>до</em><span>59</span></div>
+                                                    <div class="select-filter-slider-range">
+                                                        <div class="select-filter-slider-range-inner"></div>
+                                                    </div>
+                                                    <div class="select-filter-slider-params">
+                                                        <div class="select-filter-slider-min">44</div>
+                                                        <div class="select-filter-slider-max">59</div>
+                                                        <div class="select-filter-slider-step">1</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="select-filter-group open">
+                                        <div class="select-filter-group-title"><span>Этаж</span><strong><svg><use xlink:href="images/sprite.svg#faq-plus"></use></svg><svg><use xlink:href="images/sprite.svg#faq-minus"></use></svg></strong></div>
+                                        <div class="select-filter-group-content">
+                                            <div class="select-filter-slider-wrapper">
+                                                <div class="select-filter-slider">
+                                                    <input type="hidden" name="floorFrom" value="2" class="select-filter-slider-from select-filter-floor-from">
+                                                    <input type="hidden" name="floorTo" value="24" class="select-filter-slider-to select-filter-floor-to">
+                                                    <div class="select-filter-slider-text-from"><em>от</em><span>2</span></div>
+                                                    <div class="select-filter-slider-text-to"><em>до</em><span>24</span></div>
+                                                    <div class="select-filter-slider-range">
+                                                        <div class="select-filter-slider-range-inner"></div>
+                                                    </div>
+                                                    <div class="select-filter-slider-params">
+                                                        <div class="select-filter-slider-min">2</div>
+                                                        <div class="select-filter-slider-max">24</div>
+                                                        <div class="select-filter-slider-step">1</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="select-filter-group open">
+                                        <div class="select-filter-group-title"><span>Стоимость квартиры</span><strong><svg><use xlink:href="images/sprite.svg#faq-plus"></use></svg><svg><use xlink:href="images/sprite.svg#faq-minus"></use></svg></strong></div>
+                                        <div class="select-filter-group-content">
+                                            <div class="select-filter-slider-wrapper">
+                                                <div class="select-filter-slider">
+                                                    <input type="hidden" name="priceFrom" value="2" class="select-filter-slider-from select-filter-price-from">
+                                                    <input type="hidden" name="priceTo" value="15" class="select-filter-slider-to select-filter-price-to">
+                                                    <div class="select-filter-slider-text-from"><em>от</em><span>2</span><strong>&nbsp;млн ₽</strong></div>
+                                                    <div class="select-filter-slider-text-to"><em>до</em><span>15</span><strong>&nbsp;млн ₽</strong></div>
+                                                    <div class="select-filter-slider-range">
+                                                        <div class="select-filter-slider-range-inner"></div>
+                                                    </div>
+                                                    <div class="select-filter-slider-params">
+                                                        <div class="select-filter-slider-min">2</div>
+                                                        <div class="select-filter-slider-max">15</div>
+                                                        <div class="select-filter-slider-step">1</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="select-filter-ctrl">
+                                        <div class="select-filter-submit"><button type="submit" class="btn">Показать квартиры</button></div>
+                                        <div class="select-filter-catalogue"><a href="windows/callback.html" class="btn border window-link">Получить каталог</a></div>
+                                        <div class="select-filter-clear"><a href="#">Сбросить фильтры</a></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- select filter END -->
+
+                        <!-- select list -->
+                        <div class="select-list">
+
+                            <div class="select-list-header">
+                                <div class="select-list-header-count">
+                                    <div class="select-list-header-count-value"></div>
+                                    <div class="select-list-header-count-text"><span></span><br> найдено</div>
+                                </div>
+                                <div class="select-list-header-favourite"><a href="#"><svg><use xlink:href="images/sprite.svg#icon-favourite"></use></svg>Показать понравившиеся</a></div>
+                                <div class="select-list-header-sort">
+                                    <div class="select-list-header-sort-title">Сортировать:</div>
+                                    <div class="select-list-header-sort-select">
+                                        <div class="select-list-header-sort-current"><span>по цене</span><svg><use xlink:href="images/sprite.svg#select-sort"></use></svg></div>
+                                        <ul>
+                                            <li class="active" data-sort="price">по цене</li>
+                                            <li data-sort="size">по площади</li>
+                                            <li data-sort="floor">по этажу</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="select-list-content" data-titleempty="Ничего не найдено, попробуйте выбрать другие параметры">
+                            </div>
+
+                            <div class="select-list-more"><a href="#" class="btn border">Показать еще</a></div>
+
+                        </div>
+                        <!-- select list END -->
+
+                    </div>
+                    <!-- select params END -->
+
+                    <!-- main bottom links -->
+                    <div class="main-bottom-links">
+                        <a href="windows/callback.html" class="window-link">
+                            <h4>3 уникальные квартиры</h4>
+                            <div class="main-bottom-link-ctrl">
+                                <div class="main-bottom-link-price">высота потолка 3.32 м</div>
+                                <div class="main-bottom-link-arrow"><svg><use xlink:href="images/sprite.svg#link-arrow"></use></svg><svg><use xlink:href="images/sprite.svg#link-arrow"></use></svg></div>
+                            </div>
+                        </a>
+
+                        <a href="windows/callback.html" class="window-link">
+                            <h4>Кладовые (28)</h4>
+                            <div class="main-bottom-link-ctrl">
+                                <div class="main-bottom-link-price">от 258 тыс. руб.</div>
+                                <div class="main-bottom-link-arrow"><svg><use xlink:href="images/sprite.svg#link-arrow"></use></svg><svg><use xlink:href="images/sprite.svg#link-arrow"></use></svg></div>
+                            </div>
+                        </a>
+
+                        <a href="select.html" class="inverse">
+                            <h4>117 квартир в&nbsp;продаже</h4>
+                            <div class="main-bottom-link-ctrl">
+                                <div class="main-bottom-link-price">от 3 531 600 руб.</div>
+                                <div class="main-bottom-link-arrow"><svg><use xlink:href="images/sprite.svg#link-arrow"></use></svg><svg><use xlink:href="images/sprite.svg#link-arrow"></use></svg></div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- main bottom links END -->
+
+                    <!-- main form -->
+                    <div class="main-form">
+                        <form data-action="windows/success.html" method="post" class="window-form">
+                            <h4 class="main-form-title">Остались вопросы? Задавайте!</h4>
+                            <div class="main-form-fields">
+                                <div class="form-input"><input type="text" name="name" value="" class="required" placeholder="Имя"></div>
+                                <div class="form-input"><input type="text" name="phone" value="" class="required phoneRU" placeholder="Телефон"></div>
+                            </div>
+                            <div class="main-form-ctrl">
+                                <div class="form-submit"><button type="submit" class="btn">Отправить</button></div>
+                                <div class="form-policy">Нажимая &laquo;Отправить&raquo; вы&nbsp;даете согласие на&nbsp;обработку персональных данных</div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- main form END -->
+
+                </div>
+                <!-- container END -->
+
+            </div>
+            <!-- wrapper inner END -->
+
+            <footer>
+                <div class="container">
+
+                    <div class="footer-container">
+                        <div class="footer-menu">
+                            <div class="footer-menu-main">
+                                <ul>
+                                    <li><a href="main.html#ambience">WELLNESS-атмосфера</a></li>
+                                    <li><a href="main.html#location">WELLNESS-локация</a></li>
+                                    <li><a href="main.html#architecture">WELLNESS-архитектура</a></li>
+                                    <li><a href="main.html#nature">Природа внутри</a></li>
+                                    <li><a href="main.html#forest">Лес прямо за окном</a></li>
+                                    <li><a href="main.html#parking">Паркинг / кладовые / коммерция</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-menu-add">
+                                <ul>
+                                    <li><a href="main.html#gallery">Галерея</a></li>
+                                    <li><a href="main.html#progress">Ход строительства</a></li>
+                                    <li><a href="main.html#developer">Застройщик</a></li>
+                                    <li><a href="main.html#rules">Условия покупки</a></li>
+                                    <li><a href="main.html#contacts">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-contacts" data-id="contacts">
+                            <div class="footer-contacts-phone"><a href="tel:+78412221122">+7<span>(8412)</span>22<em>-</em>11<em>-</em>22</a></div>
+                            <div class="footer-contacts-offices">
+                                <div class="footer-contacts-office">
+                                    <div class="footer-contacts-item">
+                                        <div class="footer-contacts-item-title">Офис продаж</div>
+                                        <div class="footer-contacts-item-value">ул. Захарова, 20Г</div>
+                                        <div class="footer-contacts-item-value">ул. Богданова, 33</div>
+                                    </div>
+                                    <div class="footer-contacts-schedule">
+                                        <div class="footer-contacts-item">
+                                            <div class="footer-contacts-item-title">Пн-пт</div>
+                                            <div class="footer-contacts-item-value">9:00-19:00</div>
+                                        </div>
+                                        <div class="footer-contacts-item">
+                                            <div class="footer-contacts-item-title">Сб</div>
+                                            <div class="footer-contacts-item-value">10:00-14:00</div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-contacts-map">
+                                        <a href="https://yandex.ru/maps/49/penza/?ll=44.999514%2C53.193559&mode=routes&rtext=~53.193558%2C44.999514&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D178439572829&z=17.11" target="_blank">
+                                            <img src="images/footer-map-1.png" alt="">
+                                            <span>Как добраться<svg><use xlink:href="images/sprite.svg#btn-arrow"></use></svg></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-disclamer">Изображения на&nbsp;фотографиях, рендерах и&nbsp;рисунках, представленные планировки могут отличаться от&nbsp;реального объекта. Вся размещенная информация на&nbsp;данном сайте носит исключительно ознакомительный характер и&nbsp;ни&nbsp;при каких условиях не&nbsp;является публичной офертой, не&nbsp;содержит полного и&nbsp;точного описания характеристик объекта и&nbsp;может быть изменена. Застройщик ООО &laquo;СЗ&nbsp;&laquo;УРБАН БИЛД&raquo;.</div>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <div class="footer-bottom-copyrights">&copy;&nbsp;2024&nbsp;ООО &laquo;Специализированный застройщик &laquo;КОРДОН&raquo;</div>
+                        <div class="footer-bottom-container">
+                            <div class="footer-bottom-projects">Проектная декларация на&nbsp;сайте <a href="https://наш.дом.рф" target="_blank">наш.дом.рф</a></div>
+                            <div class="footer-bottom-policy"><a href="https://наш.дом.рф">Политика конфиденциальности</a></div>
+                            <div class="footer-bottom-developer">Сделано в <a href="https://7pap.ru" target="_blank">СЕМЬ ПАП</a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </footer>
+
+        </div>
+        <!-- wrapper END -->
+
+        <script>
+            var pathTemplate = './';
+        </script>
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/swiper/swiper-bundle.min.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
+        <script src="js/validation/jquery.validate.min.js"></script>
+        <script src="js/validation/messages_ru.js"></script>
+        <script src="js/fancybox/jquery.fancybox.min.js"></script>
+        <script src="js/nouislider/nouislider.min.js"></script>
+        <script src="js/nouislider/wNumb.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+        <script src="js/tools.js"></script>
+
+    </body>
+</html>

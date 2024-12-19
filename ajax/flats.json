@@ -1,0 +1,258 @@
+{
+    "flats" : [
+        {
+            "number"    : "1стА",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стБ",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-02.png",
+            "price"     : "4900000",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стВ",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стГ",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стД",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-03.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стЕ",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стЖ",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стЗ",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стИ",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стК",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стЛ",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стМ",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стН",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стО",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "1стП",
+            "title"     : "1 спальня",
+            "size"      : "44,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "2491518",
+            "mortgage"  : "127532",
+            "rooms"     : "1",
+            "floor"     : "2",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "2стА",
+            "title"     : "2 спальни",
+            "size"      : "52,76",
+            "preview"   : "files/select-01.png",
+            "price"     : "12491518",
+            "mortgage"  : "207532",
+            "rooms"     : "2",
+            "floor"     : "4",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "3стА",
+            "title"     : "3 спальни",
+            "size"      : "54,76",
+            "preview"   : "files/select-02.png",
+            "price"     : "8491518",
+            "mortgage"  : "207532",
+            "rooms"     : "3",
+            "floor"     : "10",
+            "floors"    : "16",
+            "url"       : "detail.html"
+        },
+
+        {
+            "number"    : "4стА",
+            "title"     : "4 спальни",
+            "size"      : "57,76",
+            "preview"   : "files/select-03.png",
+            "price"     : "7491518",
+            "mortgage"  : "1207532",
+            "rooms"     : "4",
+            "floor"     : "21",
+            "floors"    : "22",
+            "url"       : "detail.html"
+        }
+    ],
+
+    "insets": [
+        {
+            "place" : "4",
+            "img"   : "files/select-inset-01.jpg",
+            "title" : "Кухни-гостиные для совместных вечеров",
+            "link"  : "#"
+        },
+
+        {
+            "place" : "11",
+            "img"   : "files/select-inset-02.jpg",
+            "title" : "Заголовок в&nbsp;две&nbsp;сроки"
+        },
+
+        {
+            "place" : "18",
+            "img"   : "files/select-inset-03.jpg",
+            "title" : "Заголовок в&nbsp;две&nbsp;сроки"
+        }
+    ]
+}
