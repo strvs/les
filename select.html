@@ -79,6 +79,8 @@
                             <div class="select-filter-text">Все квартиры представлены в&nbsp;евроформате (кухня-гостиная)</div>
 
                             <div class="select-filter-container">
+                                <div class="select-filter-close"><a href="#"><svg><use xlink:href="images/sprite.svg#link-arrow"></use></svg>назад</a></div>
+                                <h4 class="select-filter-title">Подбор квартиры</h4>
                                 <form data-action="ajax/flats.json" method="post">
                                     <div class="select-filter-group open">
                                         <div class="select-filter-group-title"><span>Количество комнат</span><strong><svg><use xlink:href="images/sprite.svg#faq-plus"></use></svg><svg><use xlink:href="images/sprite.svg#faq-minus"></use></svg></strong></div>
@@ -176,7 +178,8 @@
                                     <div class="select-list-header-count-value"></div>
                                     <div class="select-list-header-count-text"><span></span><br> найдено</div>
                                 </div>
-                                <div class="select-list-header-favourite"><a href="#"><svg><use xlink:href="images/sprite.svg#icon-favourite"></use></svg>Показать понравившиеся</a></div>
+                                <a href="#" class="select-list-filter-link"><span>Фильтры</span><svg><use xlink:href="images/sprite.svg#select-filter"></use></svg></a>
+                                <div class="select-list-header-favourite"><a href="#"><svg><use xlink:href="images/sprite.svg#icon-favourite"></use></svg><span>Показать понравившиеся</span></a></div>
                                 <div class="select-list-header-sort">
                                     <div class="select-list-header-sort-title">Сортировать:</div>
                                     <div class="select-list-header-sort-select">
@@ -335,6 +338,7 @@
         <script src="js/nouislider/nouislider.min.js"></script>
         <script src="js/nouislider/wNumb.js"></script>
         <script src="js/jquery.cookie.js"></script>
+        <script src="js/jquery.mousewheel.min.js"></script>
         <script src="js/tools.js"></script>
 
     </body>
